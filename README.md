@@ -1,2 +1,2 @@
-# dotenv-manager
+# dotenv
 DotENV even easier yet.
