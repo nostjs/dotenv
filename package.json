@@ -1,0 +1,24 @@
+{
+  "name": "dotenv-manager",
+  "version": "1.0.0",
+  "description": "DotENV even easier yet.",
+  "main": "index.js",
+  "dependencies": {
+    "dotenv": "^8.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nostjs/dotenv-manager.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nostjs/dotenv-manager/issues"
+  },
+  "homepage": "https://github.com/nostjs/dotenv-manager#readme"
+}
