@@ -6,7 +6,9 @@
   "dependencies": {
     "dotenv": "^8.0.0"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "@types/dotenv": "^6.1.1"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
