@@ -1,3 +1,9 @@
+language: node_js
+node_js: node
+before_script:
+  - npm run build
+script: true
+cache: npm
 deploy:
   provider: npm
   email: gerson.vfs@gmail.com
@@ -6,3 +12,4 @@ deploy:
   on:
     tags: true
     repo: nostjs/dotenv
+  skip_cleanup: true
