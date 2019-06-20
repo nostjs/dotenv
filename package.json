@@ -7,7 +7,7 @@
   "scripts": {
     "build": "tsc --build",
     "watch": "tsc --watch",
-    "test": "echo \"Test step\" && exit 0"
+    "test": "echo \"Test step\""
   },
   "repository": {
     "type": "git",
