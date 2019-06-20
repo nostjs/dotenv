@@ -62,3 +62,6 @@ typings/
 
 # TypeScript files
 index.ts
+
+# Travis CI
+.travis.yml
