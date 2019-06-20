@@ -10,6 +10,6 @@ deploy:
   api_key:
     secure: IUIzfawW+OBOO0OW/GG/cHwowRIGtlTHo0SHYzVymwF3BdQB7IzbbRfCQk8lQ8CvrMrSGQ07O2YmKzuH3H+Ly0uo0SDl45Jg1lEQlikGNQZIfW+jbvZEJxkff0gxGPqpec6/VjkgZRoSFpr9eOyCfL/OVPbx344gHZCR1l6SW2wkmsNrfEq7JZfYrOf8NXikXHp4L3nw+vpUefh1YN/oMZZ0S4fHZEKSScZ4Da9ZmsEKe8y7qL1dFiMJwqNu02Nf3wP6LWRn39qEa/jQmaHkjhgT1XOQ+nJ9TI1oDFNkRv+joYxEEsBKfywkjyl+CnhGG2wwxmijQZECPfuN/GMqlI+Zh0sP7ZXeVACOSlHkfGlYHZkM506hZxBs83RwDtjgJThoJ2OlzoJZBfJk/BsdO6IX5GpScSXWeuhRXjD5IDtBZ9JE2FAnjP+rxmvhIY8AP0I4Iye4jYHOMwSOSrykMZQ6uKvhAR9Tdr5/xPLS3dF33fVKOquNRMEI9bBpFwWiV2W/iCmNZJVzj2IvxrPbxiv27reRjUb1BYAde1rKacjIVBcaKYxmizCrm7i1+IFLOJUFufLCGG+YMXcD+DXFzxxKKz3JkJv65QYplmV0BqW7vJVVG2YNboobKXElJ520DJDsPrdHgV1H9ZcU7XY9j6cWFFLSjHXo4yGE9AQgIEQ=
   on:
-    tags: true
+    tags: false
     repo: nostjs/dotenv
   skip_cleanup: true
