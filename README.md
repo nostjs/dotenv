@@ -14,23 +14,45 @@ $ touch .env
 ## Usage
 Add this line in the .env file:
 ```
-MONGODB_URI=mongodb://localhost:27017/users
+MONGODB=mongodb://localhost:27017/users
 ```
 
-getting environment variables:
+Getting environment variables:
 ```typescript
 // TypeScript
 import env from '@nostjs/dotenv';
-
-const result = env.get('MONGODB_URI');
-
-console.log(result); // MONGODB_URI=mongodb://localhost:27017/users
+const result = env.get('MONGODB');
+console.log(result); // mongodb://localhost:27017/users
 ```
 ```javascript
 // Common JS
 const env = require('@nostjs/dotenv');
-
-const result = env.get('MONGODB_URI');
-
-console.log(result); // MONGODB_URI=mongodb://localhost:27017/users
+const result = env.get('MONGODB');
+console.log(result); // mongodb://localhost:27017/users
+```
+Getting environment variables (default values):
+```typescript
+// TypeScript
+import env from '@nostjs/dotenv';
+const result = env.get('ENV', 'PRODUCTION');
+console.log(result); // PRODUCTION
+```
+```javascript
+// Common JS
+const env = require('@nostjs/dotenv');
+const result = env.get('ENV', 'PRODUCTION');
+console.log(result); // PRODUCTION
+```
+Getting environment variables (if there is no):
+```typescript
+// TypeScript
+import env from '@nostjs/dotenv';
+const result = env.get('MONGODB_UR'); // An error will be thrown
+console.log(result);
+```
+```javascript
+// Common JS
+const env = require('@nostjs/dotenv');
+const result = env.get('MONGODB_UR');  // An error will be thrown
+console.log(result);
 ```
