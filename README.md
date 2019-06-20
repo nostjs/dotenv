@@ -47,12 +47,12 @@ Getting environment variables (if there is no):
 ```typescript
 // TypeScript
 import env from '@nostjs/dotenv';
-const result = env.get('MONGODB_UR'); // An error will be thrown
+const result = env.get('ENV'); // An error will be thrown
 console.log(result);
 ```
 ```javascript
 // Common JS
 const env = require('@nostjs/dotenv');
-const result = env.get('MONGODB_UR');  // An error will be thrown
+const result = env.get('ENV');  // An error will be thrown
 console.log(result);
 ```
