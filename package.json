@@ -1,6 +1,6 @@
 {
   "name": "@nostjs/dotenv",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "DotENV even easier yet.",
   "main": "./build/index.js",
   "types": "./build/index.d.ts",
