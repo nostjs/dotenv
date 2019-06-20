@@ -1,6 +1,8 @@
 # dotenv
-DotENV even easier yet.
+[![Build Status](https://travis-ci.org/nostjs/dotenv.svg?branch=master)](https://travis-ci.org/nostjs/dotenv)
+[![npm version](https://badge.fury.io/js/%40nostjs%2Fdotenv.svg)](https://badge.fury.io/js/%40nostjs%2Fdotenv)
 
+DotENV even easier yet.
 ## Installation
 1. Install the @nostjs/dotenv package on your project:
 ```

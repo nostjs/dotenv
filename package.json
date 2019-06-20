@@ -1,6 +1,6 @@
 {
   "name": "@nostjs/dotenv",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "description": "DotENV even easier yet.",
   "main": "./build/index.js",
   "types": "./build/index.d.ts",
@@ -13,7 +13,7 @@
     "type": "git",
     "url": "git+https://github.com/nostjs/dotenv.git"
   },
-  "keywords": [],
+  "keywords": ["env", "dotenv", "environment", "variables"],
   "author": "NostJS",
   "license": "MIT",
   "bugs": {
