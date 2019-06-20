@@ -12,5 +12,4 @@ deploy:
   on:
     tags: true
     repo: nostjs/dotenv
-    branch: master
   skip_cleanup: true
