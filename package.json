@@ -1,0 +1,33 @@
+{
+  "name": "@nostjs/dotenv",
+  "version": "0.1.1",
+  "description": "DotENV even easier yet.",
+  "main": "./build/index.js",
+  "types": "./build/index.d.ts",
+  "scripts": {
+    "build": "tsc --build",
+    "watch": "tsc --watch",
+    "test": "echo \"Test step\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nostjs/dotenv.git"
+  },
+  "keywords": [],
+  "author": "NostJS",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nostjs/dotenv/issues"
+  },
+  "homepage": "https://github.com/nostjs/dotenv#readme",
+  "dependencies": {
+    "dotenv": "^8.0.0"
+  },
+  "devDependencies": {
+    "@types/dotenv": "^6.1.1",
+    "typescript": "^3.5.2"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
