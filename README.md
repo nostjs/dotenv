@@ -24,7 +24,7 @@ import env from '@nostjs/dotenv';
 
 const result = env.get('MONGODB_URI');
 
-console.log(result); //MONGODB_URI=mongodb://localhost:27017/users
+console.log(result); // MONGODB_URI=mongodb://localhost:27017/users
 ```
 ```javascript
 // Common JS
@@ -32,5 +32,5 @@ const env = require('@nostjs/dotenv');
 
 const result = env.get('MONGODB_URI');
 
-console.log(result); //MONGODB_URI=mongodb://localhost:27017/users
+console.log(result); // MONGODB_URI=mongodb://localhost:27017/users
 ```
