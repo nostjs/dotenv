@@ -12,22 +12,22 @@ $ touch .env
 ```
 
 ## Usage
-Example .env file:
+Add this line in the .env file:
 ```
 MONGODB_URI=mongodb://localhost:27017/users
 ```
 
 getting environment variables:
-*TypeScript*
 ```typescript
+// TypeScript
 import env from '@nostjs/dotenv';
 
 const result = env.get('MONGODB_URI');
 
 console.log(result); //MONGODB_URI=mongodb://localhost:27017/users
 ```
-*Common JS*
 ```javascript
+// Common JS
 const env = require('@nostjs/dotenv');
 
 const result = env.get('MONGODB_URI');
