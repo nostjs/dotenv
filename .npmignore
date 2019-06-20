@@ -61,4 +61,7 @@ typings/
 .next
 
 # TypeScript files
-*.ts
+index.ts
+
+# Travis CI
+.travis.yml
